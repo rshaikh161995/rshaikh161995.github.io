@@ -1,0 +1,171 @@
+
+
+/* @media screen and (min-width: 600px) {
+    div.example {
+      font-size: 80px;
+    } */
+
+
+
+.container2{
+    width: 40%;
+    height:320px;
+    margin-left: 22%;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 5px;
+    animation-name:  fadeIn;
+    animation-duration: 2s;
+
+    
+}
+.header2{
+    margin-left: 17%;
+    animation-duration: 3s;
+    margin-bottom: 25px;
+}
+.header{
+    font-size: 25px;
+    animation-name:  fadeIn;
+    animation-duration: 2s;
+
+}
+
+
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+        display: none;
+    }
+
+    50% {
+        opacity: 0;
+        display: block;
+    }
+
+    100% {
+        /* transform: translateY(15px); */
+        opacity: 1;
+        display: block;
+    }
+    
+}
+
+
+.container{
+    
+    width: 90%;
+    height: 150%;
+    border-radius: 5px;
+    box-shadow: 10px;
+    margin-left: 5%;
+    padding-top: 20%;
+    box-shadow: 1px 1px 1px 1px gray;
+    color: black;
+    background-color: white;
+    height: 430px;
+    animation-name:  fadeIn;
+    animation-duration: 2s;
+    rgba(228, 228, 228, 1)
+    
+}
+.mark{
+    position: absolute;
+left: 57.69%;
+right: 40.39%;
+top: 39.75%;
+bottom: 58.83%;
+
+background: #FF7600;
+}
+.icon{
+    height: 85px;
+    width: 93px;
+    border-radius:60%;
+    box-shadow: 1px 1px 1px 1px;
+    background-color:  rgb(255, 94, 0);
+    margin-top: -35px;
+    position: absolute ;
+    margin-left: 60px;
+    padding-left: 10px;
+    margin-bottom:10px ;
+    animation-duration: 3s;
+   ;
+   
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    padding-left: 25px;
+    animation-duration: 4s;
+}
+.card{
+    
+    border-radius: 7px;
+    width: 85%;
+    height: 11%;
+    margin-left: 7%;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 15px;
+    animation-name:  fadeIn;
+    animation-duration: 2s;
+
+}
+.list{
+    color: rgb(255, 94, 0);
+    box-shadow: 1px;
+    
+}
+.card2{
+    
+    border-radius: 7px;
+    width: 85%;
+    height: 11%;
+    margin-left: 7%;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 15px;
+    animation-name:  fadeIn;
+    animation-duration: 3s;
+
+    
+}
+.card3{
+
+    border-radius: 7px;
+    width: 85%;
+    height: 11%;
+    margin-left: 7%;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 15px;
+    animation-name:  fadeIn;
+    animation-duration: 4s;
+}
+.card4{
+    
+    border-radius: 7px;
+    width: 85%;
+    height: 11%;
+    margin-left: 7%;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 15px;
+    animation-name:  fadeIn;
+    animation-duration: 5s;
+
+}
+.card5{
+    
+    border-radius: 40px;
+    width: 65%;
+    height: 11%;
+    margin-left: 13%;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 15px;
+    animation-name:  fadeIn;
+    animation-duration: 6s;
+
+}
