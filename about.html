@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+
+  .nav {
+    height: 60px;
+    width: 100%;
+    background-color: #2218a3;
+    position: relative;
+  }
+
+  .nav>.nav-header {
+    display: inline;
+  }
+
+  .nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #2218a3;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .nav>.nav-btn {
+    display: none;
+  }
+
+  .nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+
+  .nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #2218a3;
+  }
+
+  
+  
+  >.nav-links>a:hover {
+    background-color: #2218a3(0, 0, 0, 0.3);
+  }
+
+  .nav>#nav-check {
+    display: none;
+  }
+
+  @media (max-width:600px) {
+    .nav>.nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    .nav>.nav-btn>label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+     
+    }
+
+    .nav>.nav-btn>label>span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      /* background-color: #2218a3; */
+      height: 30px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+
+    .nav>.nav-links>a {
+      display: block;
+      width: 100%;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+      height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+</style>
+
+<body>
+
+  <div class="w3-light-grey w3-padding-64 w3-margin-bottom w3-center">
+    <h1 class="w3-jumbo">About Our Product And Quality</h1>
+  </div>
+
+  <div class="nav navbar-dark bg-primary">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title" style="color: blanchedalmond;font-size: 26px; ">
+        NATIONAL
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="nav-links">
+      <a href="Home.html" target="_blank">Home</a>
+      <a href="https://www.linkedin.com/in/rizwan-shaikh-abb434205/" target="_blank">LinkedIn</a>
+      <a href="https://www.facebook.com/profile.php?id=100006718805202" target="_blank">facebook</a>
+      <a href="https://www.google.com/maps/place/National+Battery+pachora/@20.6578936,75.3461519,15z/data=!4m5!3m4!1s0x0:0xf1aef8088ec574cb!8m2!3d20.6578936!4d75.3461519"
+        target="_blank">Google</a>
+      <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">JsFiddle</a>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-content" style="max-width:1400px">
+    <div class="w3-twothird">
+      <img src="https://unsplash.com/photos/EMlt9aAqU7A" alt="">
+      <h2>Empty Notebook Found</h2>
+      <div class="w3-justify">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.</p>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-container w3-light-grey">
+        <h2>Very New News!</h2>
+        <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.</p>
+      </div>
+      <br>
+      <div class="w3-container w3-light-grey w3-justify">
+        <h2>Very New News!</h2>
+        <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.</p>
+      </div>
+      <br>
+      <div class="w3-container w3-light-grey w3-justify">
+        <h2>Very New News!</h2>
+        <p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.</p>
+      </div>
+
+
+
+    </div>
+  </div>
+</body>
+
+</html>
